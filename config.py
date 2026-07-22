@@ -17,7 +17,7 @@ VECTOR_DIR.mkdir(exist_ok=True)
 # Load Grok/OpenAI-compatible API key from environment for safety.
 # Do NOT commit secrets into source control. Put your key into a .env file
 # or export it into your shell as GROK_API_KEY.
-GROK_API_KEY = os.getenv('GROK_API_KEY', '')
+GROK_API_KEY = os.getenv('GROK_API_KEY')
 
 EMBEDDING_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
 
