@@ -1,0 +1,28 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+myenv/
+venv/
+.env
+.env.*
+
+# Streamlit and local outputs
+*.log
+*.db
+uploads/
+vector_db/
+
+# macOS
+.DS_Store
+
+# Python package build artifacts
+build/
+dist/
+*.egg-info/
+
+# IDE files
+.vscode/
+.idea/
