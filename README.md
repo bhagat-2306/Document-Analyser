@@ -10,7 +10,6 @@ A clean Streamlit document intelligence app using a graph-style pipeline.
 - `nodes/` — Single-purpose nodes for extraction, preprocessing, metadata, chunking, embeddings, retrieval, and LLM calls.
 - `utils/` — Reusable helpers for file handling, OCR, cleaning, and regex extraction.
 - `models/` — Shared embedding model initialization.
-- `knowledge_base/` — Preloaded sample documents.
 - `uploads/` — Temporary user uploads.
 - `vector_db/` — Optional FAISS index storage.
 
@@ -36,7 +35,7 @@ streamlit run app.py
 
 ## Usage
 
-1. Upload a document or select a sample from `knowledge_base/`.
+1. Upload a document.
 2. Click **Process document** once to load, extract, clean, chunk, and embed the document.
 3. Ask multiple questions against the same processed document without rebuilding embeddings.
 
